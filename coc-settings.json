@@ -1,0 +1,12 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "rust",
+    "css",
+    "markdown",
+    "html",
+    "lua"
+  ],
+  "suggest.noselect": true
+}
