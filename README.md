@@ -12,6 +12,7 @@ Path to config file:
 
 ### Table of content
 
-| name                | type           | url                                                     |
-| ------------------- | -------------- | ------------------------------------------------------- |
-| Vim-plug            | plugin manager | [github](https://github.com/junegunn/vim-plug)          |
+| name     | type           | url                                                 |
+| -------- | -------------- | --------------------------------------------------- |
+| Vim-plug | plugin manager | [github](https://github.com/junegunn/vim-plug)      |
+| Hybrid   | theme          | [github](https://github.com/HoNamDuong/hybrid.nvim) |
