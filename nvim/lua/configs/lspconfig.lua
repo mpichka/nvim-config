@@ -10,6 +10,28 @@ local servers = {
 }
 
 vim.lsp.config('ts_ls', {
+  init_options = {
+    preferences = {
+      includeCompletionsForImportStatements = true,
+      includeCompletionsWithSnippetText = true,
+      includeCompletionsWithInsertText = true,
+    },
+  },
+  settings = {
+    javascript = {
+      suggest = {
+        completeFunctionCalls = true,
+      },
+      implicitProjectConfig = {
+        checkJs = true,
+      },
+    },
+    typescript = {
+      suggest = {
+        completeFunctionCalls = true,
+      },
+    },
+  },
   cmd = { "typescript-language-server", "--stdio" },
   filetypes = {
     "javascript",

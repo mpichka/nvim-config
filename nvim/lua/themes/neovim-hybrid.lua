@@ -38,8 +38,8 @@ M.base_30 = {
 
   statusline_bg = "#1d2428",
   lightbg = "#232a2e",
-  pmenu_bg = "#81a2be",
-  folder_bg = "#81a2be",
+  pmenu_bg = "#6c7a80",
+  folder_bg = "#6c7a80",
 }
 
 -- check https://github.com/chriskempson/base16/blob/master/styling.md for more info
@@ -65,8 +65,8 @@ M.base_16 = {
 M.polish_hl = {
   defaults = {
     Comment = { italic = true },
-    CursorLine = { bg = "#99dbff" },
-    Visual = { bg = "#99dbff" },
+    CursorLine = { bg = "#6c7a80" },
+    Visual = { bg = "#2e2f31" },
     StatusLine = { bg = "#1d2428" },
   },
 
@@ -77,10 +77,10 @@ M.polish_hl = {
     ["@variable.builtin"] = { fg = "#81a2be" },           -- built-in variable names (e.g. `this`)
     ["@variable.parameter"] = { fg = "#e4e4e4" },         -- parameters of a function
     ["@variable.parameter.builtin"] = { fg = "#cc6666" }, -- special parameters (e.g. `_`, `it`)
-    ["@variable.member"] = { fg = "#81a2be" },            -- object and struct fields
+    ["@variable.member"] = { fg = "#e4e4e4" },            -- object and struct fields
 
     ["@constant"] = { fg = "#e4e4e4" },                   -- constant identifiers
-    ["@constant.builtin"] = { fg = "#e4e4e4" },           -- built-in constant values
+    ["@constant.builtin"] = { fg = "#cc6666" },           -- built-in constant values
     ["@constant.macro"] = { fg = "#ff5370" },             -- constants defined by the preprocessor
 
     ["@module"] = { fg = "#81a2be" },                     -- modules or namespaces
@@ -153,10 +153,10 @@ M.polish_hl = {
     ["@comment"] = { fg = "#6c7a80", italic = true }, --line and block comments
     ["@comment.documentation"] = { fg = "#e4e4e4" },  -- comments documenting code
 
-    ["@comment.error"] = { fg = "#f44747" },          -- error-type comments (e.g. `ERROR`, `FIXME`, `DEPRECATED`)
-    ["@comment.warning"] = { fg = "#cd9731" },        -- warning-type comments (e.g. `WARNING`, `FIX`, `HACK`)
-    ["@comment.todo"] = { fg = "#6796e6" },           -- todo-type comments (e.g. `TODO`, `WIP`)
-    ["@comment.note"] = { fg = "#b267e6" },           -- note-type comments (e.g. `NOTE`, `INFO`, `XXX`)
+    ["@comment.error"] = { fg = "#f44747", bg="#28292b" },          -- error-type comments (e.g. `ERROR`, `FIXME`, `DEPRECATED`)
+    ["@comment.warning"] = { fg = "#cd9731", bg="#28292b" },        -- warning-type comments (e.g. `WARNING`, `FIX`, `HACK`)
+    ["@comment.todo"] = { fg = "#6796e6", bg="#28292b" },           -- todo-type comments (e.g. `TODO`, `WIP`)
+    ["@comment.note"] = { fg = "#b267e6", bg="#28292b" },           -- note-type comments (e.g. `NOTE`, `INFO`, `XXX`)
 
     -- Markup
     ["@markup.strong"] = { fg = "#81a2be", bold = true },         -- bold text
